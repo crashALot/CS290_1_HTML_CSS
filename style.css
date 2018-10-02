@@ -1,0 +1,36 @@
+/* Glenn Kiefer - 10/2/2018 - CS290_400 - Professor Luyao Zhang*/
+table, th, td, tfoot
+{
+    border:1px solid black;
+}
+tbody>tr:nth-of-type(n) 
+{
+    background: lightgreen;
+}
+tbody>tr:nth-of-type(2n+1)
+{
+    background:lightblue;
+}
+/* https://stackoverflow.com/questions/12763344/removing-bold-styling-from-part-of-a-header */
+/* Remove bold lettering from first column of table */
+#notbold 
+{
+   font-weight: normal;
+}
+.outer-content 
+{
+    position: relative;
+    margin-top: 20px;
+    left: 0px;
+    padding: 20px;
+    background-color: pink;
+    width: 75%;
+}
+.inner-content 
+{
+    position:relative;
+    background-color: blue;
+    width: 75%;
+    margin:auto;
+    text-align:center;
+}
